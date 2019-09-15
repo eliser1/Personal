@@ -1,0 +1,58 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+  line-height: 1.5;
+  user-select: none;
+}
+html {
+height: 100%;
+}
+.navbar {
+  background: #007ab3;
+}
+.navbar-light .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+.material-icons {
+  vertical-align: text-bottom;
+}
+.navbar-light .navbar-toggler {
+    color: #FFFFFF;
+}
+.btn-light {
+    color: #FFFFFF;
+    background-color: #007ab3;
+    border-color: #007ab3;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn-light:hover {
+    color: #007ab3;
+    background-color: #FFFFFF;
+}
+h1 {
+  font-size: 5em;
+  font-weight: 700;
+  color: #007ab3;
+}
+.container {
+   text-align: center;
+   color: #007ab3;
+}
+.input {
+  width: 50%;
+}
+.change {
+  padding-right: 5px;
+}
+.img-thumbnail {
+  margin-top: 15px;
+}
+.top {
+  margin-top: 80px;
+}
+button {
+  margin-bottom: 15px;
+}
