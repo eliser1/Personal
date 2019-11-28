@@ -1,0 +1,57 @@
+body {
+    font-family: avenirreg;
+    margin: 0 auto;
+}
+.navbar {
+    background: #c8c8c8;
+    color: #333333;
+}
+.column {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.phead {
+    font-family: avenirbold;
+    font-size: 2em;
+}
+.psub {
+    font-size: 1em;
+}
+.info {
+    font-size: 1.5em;
+}
+.btn {
+    background: #c8c8c8;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    font-family: avenirbold;
+}
+.btn:hover {
+    background: #333333;
+    color: white;
+}
+.columnmarg {
+    margin-bottom: 25px;
+}
+#submit {
+    margin-left: auto;
+    border: none;
+}
+#sent {
+    display: none;
+    background: #c8c8c8;
+    color: white;
+    text-align: center;
+    border: 5px solid #c8c8c8;
+    border-radius: 5px;
+    font-family: avenirbold;
+}
+@font-face {
+    font-family: avenirreg;
+    src: url(AvenirReg.otf);
+}
+@font-face {
+    font-family: avenirbold;
+    src: url(AvenirBold.otf);
+}
