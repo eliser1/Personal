@@ -34,18 +34,8 @@ body {
 .columnmarg {
     margin-bottom: 25px;
 }
-#submit {
-    margin-left: auto;
-    border: none;
-}
-#sent {
-    display: none;
-    background: #c8c8c8;
-    color: white;
-    text-align: center;
-    border: 5px solid #c8c8c8;
-    border-radius: 5px;
-    font-family: avenirbold;
+#contact {
+    text-align: left;
 }
 @font-face {
     font-family: avenirreg;
