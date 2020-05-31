@@ -1,0 +1,124 @@
+<html lang='en' dir='ltr'>
+    <head>
+        <meta charset="utf-8">
+        <title>Gotcha</title>
+        <link href="circle_game.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $( document ).ready(function() 
+            {
+                $('.second').hide();
+                $('.third').hide();
+                $('.fourth').hide();
+                $('.fifth').hide();
+                $('.sixth').hide();
+                $('.seventh').hide();
+
+                $('#first_next').click(function()
+                {
+                    $('.first').hide();
+                    $('.second').show();
+                });
+                $('#second_prev').click(function()
+                {
+                    $('.first').show();
+                    $('.second').hide();
+                });
+                $('#second_next').click(function()
+                {
+                    $('.second').hide();
+                    $('.third').show();
+                });
+                $('#third_prev').click(function()
+                {
+                    $('.second').show();
+                    $('.third').hide();
+                });
+                $('#third_next').click(function()
+                {
+                    $('.third').hide();
+                    $('.fourth').show();
+                });
+                $('#fourth_prev').click(function()
+                {
+                    $('.third').show();
+                    $('.fourth').hide();
+                });
+                $('#fourth_next').click(function()
+                {
+                    $('.fourth').hide();
+                    $('.fifth').show();
+                });
+                $('#fifth_prev').click(function()
+                {
+                    $('.fourth').show();
+                    $('.fifth').hide();
+                });
+                $('#fifth_next').click(function()
+                {
+                    $('.fifth').hide();
+                    $('.sixth').show();
+                });
+                $('#sixth_prev').click(function()
+                {
+                    $('.fifth').show();
+                    $('.sixth').hide();
+                });
+                $('#sixth_next').click(function()
+                {
+                    $('.sixth').hide();
+                    $('.seventh').show();
+                });
+                $('#seventh_prev').click(function()
+                {
+                    $('.sixth').show();
+                    $('.seventh').hide();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id='hero-image'>
+            <div id='hero-text'>
+                <h1 class='first'>HELLO</h1>
+                <div class='first'>
+                    <div class='prev'>&nbsp;</div>
+                    <div class='next' id='first_next'>NEXT &gt;</div>
+                </div>
+                <h1 class='second'>I BET YOU WONDER WHY YOU'RE HERE.</h1>
+                <div class='second'>
+                    <div class='prev' id='second_prev'>&lt; PREV</div>
+                    <div class='next' id='second_next'>NEXT &gt;</div>
+                </div>
+                <h1 class='third'>IT WILL BE REVEALED IN DUE TIME.</h1>
+                <div class='third'>
+                    <div class='prev' id='third_prev'>&lt; PREV</div>
+                    <div class='next' id='third_next'>NEXT &gt;</div>
+                </div>
+                <h1 class='fourth'>CONTINUE CLICKING AHEAD, IF YOU DARE.</h1>
+                <div class='fourth'>
+                    <div class='prev' id='fourth_prev'>&lt; PREV</div>
+                    <div class='next' id='fourth_next'>NEXT &gt;</div>
+                </div>
+                <h1 class='fifth'>BEWARE OF WHAT LIES BEYOND THIS PAGE.</h1>
+                <div class='fifth'>
+                    <div class='prev' id='fifth_prev'>&lt; PREV</div>
+                    <div class='next' id='fifth_next'>NEXT &gt;</div>
+                </div>
+                <h1 class='sixth'>NO TURNING BACK AFTER THIS.</h1>
+                <div class='sixth'>
+                    <div class='prev' id='sixth_prev'>&lt; PREV</div>
+                    <div class='next' id='sixth_next'>NEXT &gt;</div>
+                </div>
+                <img class='seventh' id='circle' src='circle_game.svg' alt='gotcha' />
+                <div class='seventh'>
+                    <div class='prev' id='seventh_prev'>&lt; PREV</div>
+                    <div class='next'>&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
